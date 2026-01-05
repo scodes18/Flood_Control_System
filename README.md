@@ -1,15 +1,15 @@
-# 🌊 Dam Water Level Monitoring System using Ultrasonic Sensor
+# Dam Water Level Monitoring System using Ultrasonic Sensor
 
 An automated **Dam Water Level Monitoring System** built using an **Arduino Uno** and an **HC-SR04 ultrasonic sensor** to continuously monitor water levels and provide real-time alerts during warning and danger conditions.
 
 ---
 
-## 🎯 Aim
+## Aim
 To design and implement a non-contact water level monitoring system for dams that improves safety through early flood warning alerts.
 
 ---
 
-## ✅ Objectives
+## Objectives
 - Monitor water level without physical contact
 - Display real-time distance and status on an LCD
 - Provide visual alerts using LEDs
@@ -18,7 +18,7 @@ To design and implement a non-contact water level monitoring system for dams tha
 
 ---
 
-## 🧩 Components Used
+## Components Used
 - Arduino Uno  
 - Ultrasonic Sensor (HC-SR04)  
 - I2C LCD Display (16×2)  
@@ -30,12 +30,12 @@ To design and implement a non-contact water level monitoring system for dams tha
 
 ---
 
-## ⚙️ Working Principle
+## Working Principle
 The ultrasonic sensor emits sound waves toward the water surface. The reflected echo is received by the sensor, and the time taken is converted into distance using the speed of sound. Based on predefined threshold values, the system determines the water level condition and triggers alerts accordingly.
 
 ---
 
-## 🔄 System Operation
+## System Operation
 
 | Condition | Distance | Indication |
 |---------|----------|------------|
@@ -45,11 +45,11 @@ The ultrasonic sensor emits sound waves toward the water surface. The reflected 
 
 ---
 
-## 🧱 Block Diagram
+##  Block Diagram
 
 ![FLOOD_CONTROL_SYSTEM](images/BLOCK%20DIAGRAM.png)
 
-## 🧭 Flowchart
+##  Flowchart
 
 ![FLOOD_CONTROL_SYSTEM](images/FLOWCHART.png)
 
@@ -59,7 +59,7 @@ The ultrasonic sensor emits sound waves toward the water surface. The reflected 
 ![FLOOD_CONTROL_SYSTEM](images/DANGER.png)
 ![FLOOD_CONTROL_SYSTEM](images/WARN.png)
 
-## 🔌 Circuit Connections
+## Circuit Connections
 
 | Component | Arduino Pin |
 |---------|-------------|
@@ -73,7 +73,7 @@ The ultrasonic sensor emits sound waves toward the water surface. The reflected 
 
 ---
 
-## 👍 Advantages
+## Advantages
 - Non-contact measurement
 - Low-cost implementation
 - Real-time monitoring
@@ -82,14 +82,14 @@ The ultrasonic sensor emits sound waves toward the water surface. The reflected 
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 - Affected by environmental conditions
 - Limited sensing range
 - Requires stable mounting
 
 ---
 
-## 🌍 Applications
+## Applications
 - Dam monitoring systems
 - Flood warning systems
 - Water tank level monitoring
@@ -97,7 +97,7 @@ The ultrasonic sensor emits sound waves toward the water surface. The reflected 
 
 ---
 
-## 🚀 Future Enhancements
+## Future Enhancements
 - GSM-based SMS alerts
 - IoT cloud integration
 - Automatic dam gate control
@@ -105,5 +105,5 @@ The ultrasonic sensor emits sound waves toward the water surface. The reflected 
 
 ---
 
-## 🏁 Conclusion
+## Conclusion
 This project demonstrates a reliable and cost-effective dam water level monitoring system using ultrasonic sensing. Visual and audible alerts significantly improve safety and provide a foundation for future smart flood monitoring solutions.
