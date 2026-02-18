@@ -10,11 +10,11 @@ To design and implement a non-contact water level monitoring system for dams tha
 ---
 
 ## Objectives
-- Monitor water level without physical contact
-- Display real-time distance and status on an LCD
-- Provide visual alerts using LEDs
-- Generate audible alerts for warning and danger levels
-- Enhance dam safety and early warning mechanisms
+- Monitor water level without physical contact  
+- Display real-time distance and status on an LCD  
+- Provide visual alerts using LEDs  
+- Generate audible alerts for warning and danger levels  
+- Enhance dam safety and early warning mechanisms  
 
 ---
 
@@ -38,31 +38,42 @@ The ultrasonic sensor emits sound waves toward the water surface. The reflected 
 ## System Operation
 
 | Condition | Distance | Indication |
-|---------|----------|------------|
-| Safe | > 20 cm | Green LED ON, Buzzer OFF |
-| Warning | 10–20 cm | Yellow LED ON, Buzzer for 3 seconds |
-| Danger | ≤ 10 cm | Red LED ON, Continuous Buzzer |
+|-----------|----------|------------|
+| Safe      | > 20 cm  | Green LED ON, Buzzer OFF |
+| Warning   | 10–20 cm | Yellow LED ON, Buzzer for 3 seconds |
+| Danger    | ≤ 10 cm  | Red LED ON, Continuous Buzzer |
 
 ---
 
-##  Block Diagram
+## Block Diagram
 
-![FLOOD_CONTROL_SYSTEM](images/BLOCK%20DIAGRAM.png)
+![Block Diagram](IMAGES/BLOCK%20DIAGRAM.png)
 
-##  Flowchart
+---
 
-![FLOOD_CONTROL_SYSTEM](images/FLOWCHART.png)
+## Flowchart
 
-## Circuit Connection
+![Flowchart](IMAGES/FLOWCHART.png)
 
-![FLOOD_CONTROL_SYSTEM](images/SAFE.png)
-![FLOOD_CONTROL_SYSTEM](images/DANGER.png)
-![FLOOD_CONTROL_SYSTEM](images/WARN.png)
+---
 
 ## Circuit Connections
 
+### Safe Condition
+![Safe Condition](IMAGES/SAFE.png)
+
+### Warning Condition
+![Warning Condition](IMAGES/WARN.png)
+
+### Danger Condition
+![Danger Condition](IMAGES/DANGER.png)
+
+---
+
+## Pin Configuration
+
 | Component | Arduino Pin |
-|---------|-------------|
+|-----------|------------|
 | TRIG | Pin 9 |
 | ECHO | Pin 10 |
 | Green LED | Pin 4 |
@@ -74,36 +85,36 @@ The ultrasonic sensor emits sound waves toward the water surface. The reflected 
 ---
 
 ## Advantages
-- Non-contact measurement
-- Low-cost implementation
-- Real-time monitoring
-- Simple and reliable
-- Expandable to IoT-based systems
+- Non-contact measurement  
+- Low-cost implementation  
+- Real-time monitoring  
+- Simple and reliable  
+- Expandable to IoT-based systems  
 
 ---
 
 ## Limitations
-- Affected by environmental conditions
-- Limited sensing range
-- Requires stable mounting
+- Affected by environmental conditions  
+- Limited sensing range  
+- Requires stable mounting  
 
 ---
 
 ## Applications
-- Dam monitoring systems
-- Flood warning systems
-- Water tank level monitoring
-- Irrigation management
+- Dam monitoring systems  
+- Flood warning systems  
+- Water tank level monitoring  
+- Irrigation management  
 
 ---
 
 ## Future Enhancements
-- GSM-based SMS alerts
-- IoT cloud integration
-- Automatic dam gate control
-- Data logging and analytics
+- GSM-based SMS alerts  
+- IoT cloud integration  
+- Automatic dam gate control  
+- Data logging and analytics  
 
 ---
 
 ## Conclusion
-This project demonstrates a reliable and cost-effective dam water level monitoring system using ultrasonic sensing. Visual and audible alerts significantly improve safety and provide a foundation for future smart flood monitoring solutions.
+This project demonstrates a reliable and cost-effective dam water level monitoring system using ultrasonic sensing. Visual and audible alerts significantly improve safety and provide a strong foundation for future smart flood monitoring solutions.
